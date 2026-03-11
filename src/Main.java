@@ -53,14 +53,7 @@ public class Main {
             System.out.println(v);
         }
 
-        //Mostramos los resultados
-        System.out.println("Fecha inicio: " + fechaInicio);
-        System.out.println("Fecha fin: " + fechaFin);
-        System.out.println("\nVuelos encontrados:\n");
-
-        for (Vuelo v : vuelosFiltrados) {
-            System.out.println(v);
-        }
+    
     }
 
 }
