@@ -20,7 +20,7 @@ public class VueloUtils {
         return vuelos.stream()
 
                 //Aplico filtros segun las fechas introducidas
-                .filter(vuelo -> {
+                .filter(Vuelo vuelo -> {
                     LocalDate fecha = vuelo.getFechaSalida();
 
                     //Si no se envia ninguna fecha -> devolver todos
